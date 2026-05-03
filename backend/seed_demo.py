@@ -34,7 +34,7 @@ def seed():
     user = User(
         email="admin@sentinelops.demo",
         hashed_password=hash_password("demo2026"),
-        full_name="Karim Benali",
+        full_name="Mhoma EL ISLAH",
         role="manager",
         company_id=company.id,
     )
