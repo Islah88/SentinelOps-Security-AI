@@ -19,8 +19,8 @@ et rapports d'incidents structurés automatiquement.**
 
 ## 🎬 Démo
 
-![SentinelOps Dashboard](https://raw.githubusercontent.com/Islah88/Islah88.github.io/main/images/sentinelops-1-dashboard.png)
-> 📸 *Dashboard interactif de gestion de la sécurité privée*
+![SentinelOps Démo](https://raw.githubusercontent.com/Islah88/Islah88.github.io/main/images/sentinelops.gif)
+> 📸 *Démonstration de l'IA qui génère le planning et structure les incidents*
 
 ## ✨ Fonctionnalités
 
