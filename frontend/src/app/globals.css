@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* ============================================= */
+/*  SentinelOps — Design System "Dark Sentinel"  */
+/*  Accent: Amber → Red                          */
+/* ============================================= */
+
+@theme {
+  --color-bg-base: hsl(220 25% 6%);
+  --color-bg-surface: hsl(220 20% 10%);
+  --color-bg-card: hsl(220 18% 13%);
+  --color-bg-elevated: hsl(220 15% 16%);
+
+  --color-accent-amber: hsl(38 92% 55%);
+  --color-accent-red: hsl(0 75% 55%);
+  --color-accent-orange: hsl(25 90% 55%);
+  --color-accent-green: hsl(155 70% 50%);
+  --color-accent-cyan: hsl(185 75% 55%);
+  --color-accent-violet: hsl(265 75% 60%);
+
+  --color-text-primary: hsl(0 0% 95%);
+  --color-text-secondary: hsl(220 15% 60%);
+  --color-text-muted: hsl(220 10% 40%);
+
+  --color-border-subtle: hsl(220 15% 18%);
+  --color-border-glass: hsl(0 0% 100% / 0.08);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+body {
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(220 15% 25%); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(220 15% 35%); }
+
+.glass {
+  background: hsl(220 18% 13% / 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid hsl(0 0% 100% / 0.08);
+}
+.glass-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-hover:hover {
+  background: hsl(220 18% 15% / 0.7);
+  border-color: hsl(0 0% 100% / 0.12);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px hsl(0 0% 0% / 0.3);
+}
+
+.gradient-text-sentinel {
+  background: linear-gradient(135deg, var(--color-accent-amber), var(--color-accent-red));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow-amber {
+  box-shadow: 0 0 20px hsl(38 92% 55% / 0.15), 0 0 60px hsl(38 92% 55% / 0.05);
+}
+.glow-red {
+  box-shadow: 0 0 20px hsl(0 75% 55% / 0.15), 0 0 60px hsl(0 75% 55% / 0.05);
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.5); }
+}
+.pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, transparent 25%, hsl(220 15% 20%) 50%, transparent 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
