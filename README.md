@@ -19,8 +19,8 @@ et rapports d'incidents structurés automatiquement.**
 
 ## 🎬 Démo
 
-<!-- Remplacer par le GIF une fois capturé -->
-> 📸 *Screenshots ci-dessous — GIF de démo à venir*
+![SentinelOps Dashboard](https://raw.githubusercontent.com/Islah88/Islah88.github.io/main/images/sentinelops-1-dashboard.png)
+> 📸 *Dashboard interactif de gestion de la sécurité privée*
 
 ## ✨ Fonctionnalités
 
@@ -90,16 +90,23 @@ npm run dev -- --port 3002
 <summary>Voir les screenshots</summary>
 
 ### Dashboard
+![SentinelOps Dashboard](https://raw.githubusercontent.com/Islah88/Islah88.github.io/main/images/sentinelops-1-dashboard.png)
 Vue d'ensemble : 6 agents, jauge CNAPS 83.3%, incidents récents avec sévérité.
 
 ### Planning Semaine
+![SentinelOps Planning](https://raw.githubusercontent.com/Islah88/Islah88.github.io/main/images/sentinelops-2-planning.png)
 Calendrier avec blocs de vacation colorés par site, génération IA en un clic.
 
 ### Agents de Sécurité
+![SentinelOps Agents](https://raw.githubusercontent.com/Islah88/Islah88.github.io/main/images/sentinelops-3-agents.png)
 Cartes avec initiales, statut CNAPS dynamique (valide/expire bientôt/expirée), qualifications.
 
 ### Incidents
+![SentinelOps Incidents](https://raw.githubusercontent.com/Islah88/Islah88.github.io/main/images/sentinelops-4-incidents.png)
 Signalement avec structuration IA, rapport expandable avec détails structurés.
+
+### Conformité CNAPS
+![SentinelOps CNAPS](https://raw.githubusercontent.com/Islah88/Islah88.github.io/main/images/sentinelops-5-cnaps.png)
 
 </details>
 
