@@ -154,10 +154,11 @@ L'IA Gemini automatise la prise en compte de ces contraintes dans la planificati
 
 ## 👤 Auteur
 
-**Mhoma EL ISLAH**
+**Mhoma EL ISLAH** — *Développeur SaaS IA & Expert SecDevOps*
 - 🎓 Bachelor Cybersécurité — ESAIP / Le Havre
 - 🎓 Master 2 MIASHS
-- 🔗 [Portfolio](https://islah88.github.io) | [LinkedIn](https://linkedin.com/in/votre-profil) | [GitHub](https://github.com/Islah88)
+- 💡 Passionné par la création de plateformes intelligentes (Agentic IA) et la sécurisation des infrastructures cloud.
+- 🔗 [Portfolio](https://islah88.github.io) | [LinkedIn](https://linkedin.com/in/el-islah-mhoma/) | [GitHub](https://github.com/Islah88)
 
 ## 📄 Licence
 
